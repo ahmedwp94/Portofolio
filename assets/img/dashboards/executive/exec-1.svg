@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace">
+  <rect width="800" height="500" fill="#FCFBF8"/>
+  <!-- KPI tiles -->
+  <g>
+    <rect x="24" y="24" width="172" height="90" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="40" y="52" fill="#6B7280" font-size="11" letter-spacing="1">PORTFOLIO HEALTH</text>
+    <text x="40" y="88" fill="#0E7C86" font-size="30" font-weight="700">92%</text>
+
+    <rect x="208" y="24" width="172" height="90" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="224" y="52" fill="#6B7280" font-size="11" letter-spacing="1">ACTIVE PROJECTS</text>
+    <text x="224" y="88" fill="#12151A" font-size="30" font-weight="700">47</text>
+
+    <rect x="392" y="24" width="172" height="90" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="408" y="52" fill="#6B7280" font-size="11" letter-spacing="1">AT RISK</text>
+    <text x="408" y="88" fill="#D98E2B" font-size="30" font-weight="700">05</text>
+
+    <rect x="576" y="24" width="200" height="90" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="592" y="52" fill="#6B7280" font-size="11" letter-spacing="1">BUDGET VARIANCE</text>
+    <text x="592" y="88" fill="#12151A" font-size="30" font-weight="700">-2.3%</text>
+  </g>
+  <!-- trend chart -->
+  <rect x="24" y="136" width="752" height="230" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+  <text x="40" y="164" fill="#12151A" font-size="13" font-weight="700">Portfolio Delivery Trend — FY26</text>
+  <polyline points="56,320 140,300 224,310 308,260 392,270 476,220 560,235 644,180 728,190"
+            fill="none" stroke="#0E7C86" stroke-width="3"/>
+  <polygon points="56,320 140,300 224,310 308,260 392,270 476,220 560,235 644,180 728,190 728,340 56,340"
+           fill="#0E7C86" opacity="0.08"/>
+  <g stroke="#E5E1D8">
+    <line x1="56" y1="180" x2="56" y2="340"/>
+    <line x1="56" y1="340" x2="740" y2="340"/>
+  </g>
+  <!-- donut + legend -->
+  <rect x="24" y="386" width="752" height="90" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+  <circle cx="70" cy="431" r="30" fill="none" stroke="#E5E1D8" stroke-width="14"/>
+  <circle cx="70" cy="431" r="30" fill="none" stroke="#0E7C86" stroke-width="14" stroke-dasharray="141 188" stroke-linecap="round" transform="rotate(-90 70 431)"/>
+  <text x="120" y="422" fill="#6B7280" font-size="11">STRATEGIC ALIGNMENT SCORE</text>
+  <text x="120" y="444" fill="#12151A" font-size="18" font-weight="700">75% of initiatives mapped to FY26 strategic pillars</text>
+</svg>

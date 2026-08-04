@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace">
+  <rect width="800" height="500" fill="#FCFBF8"/>
+  <text x="24" y="40" fill="#12151A" font-size="14" font-weight="700">Sprint Board — Task Execution</text>
+  <g>
+    <rect x="24" y="64" width="234" height="280" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="40" y="90" fill="#6B7280" font-size="11" letter-spacing="1">TO DO (6)</text>
+    <rect x="36" y="104" width="210" height="40" rx="5" fill="#FCFBF8" stroke="#E5E1D8"/>
+    <rect x="36" y="152" width="210" height="40" rx="5" fill="#FCFBF8" stroke="#E5E1D8"/>
+    <rect x="36" y="200" width="210" height="40" rx="5" fill="#FCFBF8" stroke="#E5E1D8"/>
+
+    <rect x="270" y="64" width="234" height="280" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="286" y="90" fill="#6B7280" font-size="11" letter-spacing="1">IN PROGRESS (4)</text>
+    <rect x="282" y="104" width="210" height="40" rx="5" fill="#FCFBF8" stroke="#D98E2B"/>
+    <rect x="282" y="152" width="210" height="40" rx="5" fill="#FCFBF8" stroke="#D98E2B"/>
+
+    <rect x="516" y="64" width="260" height="280" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+    <text x="532" y="90" fill="#6B7280" font-size="11" letter-spacing="1">DONE (14)</text>
+    <rect x="528" y="104" width="230" height="40" rx="5" fill="#FCFBF8" stroke="#0E7C86"/>
+    <rect x="528" y="152" width="230" height="40" rx="5" fill="#FCFBF8" stroke="#0E7C86"/>
+    <rect x="528" y="200" width="230" height="40" rx="5" fill="#FCFBF8" stroke="#0E7C86"/>
+    <rect x="528" y="248" width="230" height="40" rx="5" fill="#FCFBF8" stroke="#0E7C86"/>
+  </g>
+  <rect x="24" y="360" width="752" height="116" rx="6" fill="#FFFFFF" stroke="#E5E1D8"/>
+  <text x="40" y="384" fill="#6B7280" font-size="11" letter-spacing="1">SPRINT BURNDOWN</text>
+  <polyline points="56,400 130,412 204,420 278,438 352,432 426,450 500,448 574,460"
+            fill="none" stroke="#6B7280" stroke-width="2" stroke-dasharray="4 4"/>
+  <polyline points="56,400 130,406 204,418 278,412 352,428 426,422 500,440 574,436"
+            fill="none" stroke="#0E7C86" stroke-width="2.5"/>
+  <line x1="40" y1="466" x2="700" y2="466" stroke="#E5E1D8"/>
+</svg>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — BI &amp; PMO Leadership Portfolio</title>
+<meta name="description" content="Business Intelligence and PMO leadership portfolio — Power BI dashboards for executive, department, and project-level decision making.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="#top" class="brand">Your Name<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#dashboards">Dashboards</a>
+      <a href="#clients">Clients</a>
+      <a href="#demo">Request a Demo</a>
+      <a href="#demo" class="btn btn-primary">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">BI &amp; PMO Leadership Portfolio</span>
+        <h1>I build the reporting layer<br>that runs <em>every level</em><br>of the organization.</h1>
+        <p class="hero-sub">
+          I lead Business Intelligence strategy and PMO governance end to end —
+          from board-level portfolio health down to sprint-level execution —
+          so every layer of leadership sees the truth about where projects stand.
+        </p>
+        <div class="hero-cta">
+          <a href="#dashboards" class="btn btn-primary">View dashboard samples</a>
+          <a href="#demo" class="btn btn-secondary">Request a demo</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="hero-stat">
+          <div class="num">03</div>
+          <div class="label">Command altitudes covered — Executive, Department, Project</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">PMP</div>
+          <div class="label">Governance framework aligned to PMP standards</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">100%</div>
+          <div class="label">Departments onboarded to unified portfolio reporting</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DASHBOARD SAMPLES — "Command Altitudes"
+       ============================================================ -->
+  <section class="altitudes" id="dashboards">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Dashboard Samples</span>
+        <h2>Every level of the org needs a different altitude.</h2>
+        <p>The same portfolio, told three ways — a boardroom view for strategic calls, a department view for resourcing and delivery, and a project view for day-to-day execution. Each dashboard is built for the decision that altitude actually needs to make.</p>
+      </div>
+
+      <div class="altitude-tabs" role="tablist" aria-label="Dashboard altitude">
+        <button class="altitude-tab active" data-target="exec" role="tab" aria-selected="true">
+          Executive <span class="ft">30,000 FT</span>
+        </button>
+        <button class="altitude-tab" data-target="dept" role="tab" aria-selected="false">
+          Department <span class="ft">10,000 FT</span>
+        </button>
+        <button class="altitude-tab" data-target="pm" role="tab" aria-selected="false">
+          Project <span class="ft">GROUND LEVEL</span>
+        </button>
+      </div>
+
+      <!-- Executive panel -->
+      <div class="altitude-panel active" id="panel-exec">
+        <div class="altitude-intro">
+          <div>
+            <h3>Executive / CEO view</h3>
+            <p>Portfolio health, budget variance, and strategic alignment — built for a five-minute leadership review, not a deep dive.</p>
+          </div>
+          <span class="altitude-audience">FOR: CEO · C-SUITE · BOARD</span>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/executive/exec-1.svg" alt="Executive portfolio health dashboard with KPI tiles and delivery trend"></figure>
+            <div class="dash-caption">
+              <h4>Portfolio Health Overview</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/executive/exec-2.svg" alt="Division scorecard dashboard comparing schedule performance and risk"></figure>
+            <div class="dash-caption">
+              <h4>Division Scorecard</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Department panel -->
+      <div class="altitude-panel" id="panel-dept">
+        <div class="altitude-intro">
+          <div>
+            <h3>Department / Operations view</h3>
+            <p>Team utilization, delivery status across active initiatives, and capacity vs. demand — built for department heads running weekly reviews.</p>
+          </div>
+          <span class="altitude-audience">FOR: DEPARTMENT HEADS · PMO</span>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/department/dept-1.svg" alt="Department operations dashboard showing team utilization and project status"></figure>
+            <div class="dash-caption">
+              <h4>Resource &amp; Delivery Tracker</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/department/dept-2.svg" alt="Department backlog and trend tracker with status table and sparklines"></figure>
+            <div class="dash-caption">
+              <h4>Backlog &amp; Trend Tracker</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PM panel -->
+      <div class="altitude-panel" id="panel-pm">
+        <div class="altitude-intro">
+          <div>
+            <h3>Project Manager view</h3>
+            <p>Timelines, milestones, and sprint execution — the working surface project managers and their teams live in day to day.</p>
+          </div>
+          <span class="altitude-audience">FOR: PROJECT MANAGERS · TEAMS</span>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/pm/pm-1.svg" alt="Project timeline dashboard with milestones and cutover schedule"></figure>
+            <div class="dash-caption">
+              <h4>Project Timeline &amp; Milestones</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+          <div class="dash-card">
+            <figure><img src="assets/img/dashboards/pm/pm-2.svg" alt="Sprint board dashboard with kanban columns and burndown chart"></figure>
+            <div class="dash-caption">
+              <h4>Sprint Board &amp; Burndown</h4>
+              <span class="tag">POWER BI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CLIENTS
+       ============================================================ -->
+  <section class="clients" id="clients">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Clients</span>
+        <h2>Organizations I've built reporting systems for.</h2>
+      </div>
+
+      <div class="client-row">
+        <div class="client-badge"><strong>Client One</strong>Sector · Engagement</div>
+        <div class="client-badge"><strong>Client Two</strong>Sector · Engagement</div>
+        <div class="client-badge"><strong>Client Three</strong>Sector · Engagement</div>
+        <div class="client-badge"><strong>Client Four</strong>Sector · Engagement</div>
+      </div>
+
+      <div class="testimonial">
+        <blockquote>
+          "Replace this with a real quote from a client or executive stakeholder about the impact of the reporting system you built for them."
+        </blockquote>
+        <cite>— Name, Title, Company</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REQUEST A DEMO
+       ============================================================ -->
+  <section class="demo" id="demo">
+    <div class="wrap demo-grid">
+      <div class="demo-copy">
+        <span class="eyebrow">Request a Demo</span>
+        <h2>See it running on your own portfolio.</h2>
+        <p>Tell me a bit about your team and I'll walk you through how the same dashboard system adapts to your organization's structure.</p>
+        <ul class="demo-points">
+          <li>15-minute walkthrough, tailored to your reporting layers</li>
+          <li>Live look at executive, department, and project views</li>
+          <li>No commitment — just a conversation about what you need</li>
+        </ul>
+      </div>
+
+      <form class="demo-form" id="demo-form">
+        <div class="two-col">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="field">
+          <label for="message">What would you like to see?</label>
+          <textarea id="message" name="message" placeholder="e.g. how would this work for a 40-person project team?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary form-submit">Request a demo</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-name">
+        Your Name
+        <span>BI &amp; PMO Leadership</span>
+      </div>
+      <div class="footer-links">
+        <a class="icon-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a class="icon-link" href="mailto:you@example.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" stroke="none"/><path d="M4 6l8 7 8-7M4 6h16v12H4V6z"/></svg>
+        </a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Your Name. Dashboards shown are illustrative work samples.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
