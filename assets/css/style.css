@@ -460,7 +460,8 @@ h1, h2, h3 {
   .hero-side { border-left: none; padding-left: 0; border-top: 1px solid var(--line); padding-top: 24px; }
   .dash-grid { grid-template-columns: 1fr; }
   .demo-grid { grid-template-columns: 1fr; gap: 40px; }
-  .testimonial { grid-template-columns: 1fr; }
+  .testimonial { grid-template-columns: 1fr; text-align: left; }
+  .testimonial-avatar img { margin-bottom: 8px; }
   .nav-links { display: none; }
 }
 
