@@ -304,6 +304,7 @@ h1, h2, h3 {
 .client-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 20px;
   margin-bottom: 48px;
 }
@@ -311,29 +312,34 @@ h1, h2, h3 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
-  padding: 36px 40px;
+  padding: 28px 32px;
   text-align: center;
-  min-width: 220px;
-  flex: 1 1 220px;
+  min-width: 200px;
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
 }
 .client-logo {
-  height: 64px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 .client-logo img {
   max-height: 100%;
-  max-width: 170px;
+  max-width: 150px;
   object-fit: contain;
 }
 .client-name {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--ink);
+  line-height: 1.3;
 }
-
 .testimonial {
   background: var(--ink);
   color: #fff;
