@@ -2,7 +2,7 @@
 // CONFIG — replace with your deployed Google Apps Script Web App URL
 // (see /apps-script/Code.gs and README.md for setup steps)
 // ============================================================
-const SCRIPT_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyJ1nSuQaLD5kKYlRKMYmtZIQla0dbTl4RntqnDuWef0aOZic2WVu8K7t4Drdntkoirlw/exec";
 
 // ============================================================
 // Footer year
