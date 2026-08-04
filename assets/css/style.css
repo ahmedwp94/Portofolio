@@ -325,9 +325,16 @@ h1, h2, h3 {
   border-radius: var(--radius);
   padding: 44px;
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 24px;
+  grid-template-columns: auto 1fr;
+  gap: 28px;
   align-items: center;
+}
+.testimonial-avatar img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.15);
 }
 .testimonial blockquote {
   margin: 0;
