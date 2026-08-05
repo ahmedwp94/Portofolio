@@ -383,13 +383,27 @@ h1, h2, h3 {
 /* ============================================================
    CLIENTS
    ============================================================ */
-.client-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.client-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.client-track {
+  display: flex;
   gap: 20px;
-  margin-bottom: 48px;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+.client-marquee:hover .client-track {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-100% - 20px)); }
 }
 .client-card {
+  flex: none;
+  width: 200px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--surface);
@@ -430,39 +444,6 @@ h1, h2, h3 {
   font-size: 15px;
   color: var(--ink);
 }
-.testimonial {
-  background: var(--ink);
-  color: #fff;
-  border-radius: var(--radius);
-  padding: 44px;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 28px;
-  align-items: center;
-}
-.testimonial-avatar img {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.15);
-}
-.testimonial blockquote {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: 21px;
-  line-height: 1.45;
-  font-weight: 500;
-}
-.testimonial cite {
-  display: block;
-  font-style: normal;
-  font-family: var(--font-mono);
-  font-size: 12.5px;
-  color: #9BA3AE;
-  margin-top: 18px;
-}
-
 /* ============================================================
    DEMO REQUEST
    ============================================================ */
@@ -572,9 +553,7 @@ h1, h2, h3 {
   .dash-grid { grid-template-columns: 1fr; }
   .cert-grid { grid-template-columns: 1fr; }
   .demo-grid { grid-template-columns: 1fr; gap: 40px; }
-  .client-row { grid-template-columns: repeat(2, 1fr); }
-  .testimonial { grid-template-columns: 1fr; text-align: left; }
-  .testimonial-avatar img { margin-bottom: 8px; }
+  .client-card { width: 160px; padding: 24px 16px; }
   .nav-links { display: none; }
 }
 
@@ -582,4 +561,5 @@ h1, h2, h3 {
   html { scroll-behavior: auto; }
   .altitude-panel.active { animation: none; }
   .btn:hover { transform: none; }
+  .client-track { animation: none; }
 }
